@@ -1,0 +1,37 @@
+kais: aspect graphique du jeu de memory
+otman: code du jeu de memory 
+
+16 mars
+Logique du jeu et découverte de Canvas
+Création de la fenêtre root et de la variable jeu
+téléchargement des images des cartes dans le dossier du jeu
+
+17 mars
+kais: j'ai crée le canvas "Aire" sur lequel va reposer les cartes du jeu. J'ai aussi crée les Label "Titre" et "CompteurDeVie"
+otman: J'ai crée les variables "écart" "lignes","colonnes" et "Vie". J'ai défini les dimensions de l' "Aire".
+
+19 mars
+kais: j'ai converti avec PhotoImage les images des cartes qui étaient en png et j'ai mis ces images et leurs noms dans deux listes (Nom et z).
+otman: j'ai crée les variables "côté","côté2" et "Largeur/Hauteur"(remplacement des anciennes valeur par Largeur et Hauteur dans le "width" et le "height" de "Aire"). 
+
+20 mars
+otman: j'ai crée la fonction "melanger" (grâce à la bibliothèque "random" et la fonction "shuffle") pour créer des matrices à deux tableaux (lignes) qui contiennent elles mêmes 6 cartes (colonnes) de chiffres allant de 0 à 5 (range de C). Chaques chiffres correspondant à une carte particulière.
+21 mars
+otman: j'ai affiché les dos de cartes en 6 colonnes de 2 lignes grâce à une boucle for imbriqué (fonction python "create_image" qui crée des images sur le canva à la position "centre").
+25 mars
+otman: j'ai crée la fonction "clique" qui permet au clique de retourner une carte (modification de la boucle for décrite ci dessus, "Aire.bind" présent en fin de programme)
+26 et 27 mars
+otman: modification de la fonction clique, création de la liste "e" qui objectifie les deux cliques et des fonctions "traiter" qui traite les cliques et "masquer" qui cachent les cartes qui sont différentes (fonction After), qui en découlent
+31 mars 
+kais: Création du canvas "g" et conversion des images "gagné" et "perdu" par le biais de PhotoImage. 
+2 avril:
+otman: Création de la variable "c" et modification des fonctions énoncés ci dessus pour afficher les images de victoire et de défaite selon le score ( variable aléatoire "Vie")
+4 avril:
+otman: Création de la fonction "dévoiler "qui affiche seulement des cartes jokers au clique (et qui se retourne continuellement sans s'apparier) une fois que le joueur à perdu.
+5 avril:
+otman: j'ai modifié les noms de certaines variables pour qu'elles soient plus intuitives.
+
+
+
+
+
