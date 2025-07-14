@@ -4,7 +4,7 @@ from random import*
 root=Tk()
 root.title("jeu de memory")
 
-dos_de_carte=PhotoImage(file="dosdecart.png")
+dos_de_carte=PhotoImage(file="images/dosdecart.png")
 c=0
 Jeu=12
 
@@ -52,12 +52,12 @@ CompteurDeVie.grid(column=9,row=2)
 #Listes des noms et conversion en format compréhensible pour python
 
 Nom=['trefles','coeurs','carreaux','piques','asdepiques','jokers']
-trefle=PhotoImage(file="trefles.png")
-coeur=PhotoImage(file="coeurs.png")
-carreau=PhotoImage(file="carreaux.png")
-pique=PhotoImage(file="piques.png")
-asdepiques=PhotoImage(file="asdepiques.png")
-jokers=PhotoImage(file="jokers.png")
+trefle=PhotoImage(file="images/trefles.png")
+coeur=PhotoImage(file="images/coeurs.png")
+carreau=PhotoImage(file="images/carreaux.png")
+pique=PhotoImage(file="images/piques.png")
+asdepiques=PhotoImage(file="images/asdepiques.png")
+jokers=PhotoImage(file="images/jokers.png")
 z=[trefle,coeur,carreau,pique,asdepiques,jokers]
 
 #Canvas "écran" de victoire ou défaite
@@ -66,8 +66,8 @@ g=Canvas(root, width=Longueur/2, height=Largeur/2,bg='white')
 
 #Image présent sur le canvas "g"
 
-gagné=PhotoImage(file="gagne.png")
-perdu=PhotoImage(file="perdu.png")
+gagné=PhotoImage(file="images/gagne.png")
+perdu=PhotoImage(file="images/perdu.png")
 
 
 
