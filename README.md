@@ -7,7 +7,7 @@ git clone https://github.com/Soupexo/Memory-Game.git
 ```
 --- 
 
-## Prérequis
+# Prérequis
 - Python 3.7 ou version supérieure installé.
 - Un IDE capable d’exécuter du Python (EduPython, Thonny, VS Code, PyCharm, etc.).
 - Le dossier du projet déjà cloné ou dézippé.
